@@ -51,7 +51,7 @@ const onPrintClick = () => {
 };
 
 const onFindInPageClick = () => {
-  ipcRenderer.send(`find-in-page-${store.windowId}`);
+  ipcRenderer.send(`find-show-${store.windowId}`);
   store.hide();
 };
 
